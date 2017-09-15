@@ -1,0 +1,32 @@
+[13-Sep-2017 11:57:53 UTC] PHP Warning:  copy(/app/public/wp-content/upgrade/updraftplus-with-migrator.2.13.5/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/S3Exception.php): failed to open stream: No such file or directory in /app/public/wp-admin/includes/class-wp-filesystem-direct.php on line 257
+[13-Sep-2017 11:57:53 UTC] PHP Stack trace:
+[13-Sep-2017 11:57:53 UTC] PHP   1. {main}() /app/public/wp-admin/update.php:0
+[13-Sep-2017 11:57:53 UTC] PHP   2. Plugin_Upgrader->install() /app/public/wp-admin/update.php:162
+[13-Sep-2017 11:57:53 UTC] PHP   3. WP_Upgrader->run() /app/public/wp-admin/includes/class-plugin-upgrader.php:110
+[13-Sep-2017 11:57:53 UTC] PHP   4. WP_Upgrader->install_package() /app/public/wp-admin/includes/class-wp-upgrader.php:745
+[13-Sep-2017 11:57:53 UTC] PHP   5. copy_dir() /app/public/wp-admin/includes/class-wp-upgrader.php:566
+[13-Sep-2017 11:57:53 UTC] PHP   6. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   7. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   8. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   9. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  10. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  11. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  12. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  13. WP_Filesystem_Direct->copy() /app/public/wp-admin/includes/file.php:842
+[13-Sep-2017 11:57:53 UTC] PHP  14. copy() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:257
+[13-Sep-2017 11:57:53 UTC] PHP Warning:  copy(/app/public/wp-content/upgrade/updraftplus-with-migrator.2.13.5/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/S3Exception.php): failed to open stream: No such file or directory in /app/public/wp-admin/includes/class-wp-filesystem-direct.php on line 257
+[13-Sep-2017 11:57:53 UTC] PHP Stack trace:
+[13-Sep-2017 11:57:53 UTC] PHP   1. {main}() /app/public/wp-admin/update.php:0
+[13-Sep-2017 11:57:53 UTC] PHP   2. Plugin_Upgrader->install() /app/public/wp-admin/update.php:162
+[13-Sep-2017 11:57:53 UTC] PHP   3. WP_Upgrader->run() /app/public/wp-admin/includes/class-plugin-upgrader.php:110
+[13-Sep-2017 11:57:53 UTC] PHP   4. WP_Upgrader->install_package() /app/public/wp-admin/includes/class-wp-upgrader.php:745
+[13-Sep-2017 11:57:53 UTC] PHP   5. copy_dir() /app/public/wp-admin/includes/class-wp-upgrader.php:566
+[13-Sep-2017 11:57:53 UTC] PHP   6. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   7. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   8. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP   9. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  10. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  11. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  12. copy_dir() /app/public/wp-admin/includes/file.php:861
+[13-Sep-2017 11:57:53 UTC] PHP  13. WP_Filesystem_Direct->copy() /app/public/wp-admin/includes/file.php:845
+[13-Sep-2017 11:57:53 UTC] PHP  14. copy() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:257
