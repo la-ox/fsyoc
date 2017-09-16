@@ -3,7 +3,6 @@
 /*!40103 SET TIME_ZONE='+00:00' */;
 INSERT INTO `wp_term_relationships` VALUES
 (1,1,0),
-(162,10,0),
 (329,5,0),
 (329,6,0),
 (339,5,0),
